@@ -14,7 +14,7 @@ jobs:
       pages: write
       id-token: write
     steps:
-    - id: katex
-      run: pip install sphinxcontrib-katex
+    - id: katex_and_theme
+      run: pip install sphinxcontrib-katex sphinx-rtd-theme
     - id: deployment
       uses: sphinx-notes/pages@v3
