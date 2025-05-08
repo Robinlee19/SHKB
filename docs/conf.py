@@ -14,7 +14,7 @@ release = 'v1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx_markdown_tables','sphinxcontrib.katex']
+extensions = ['sphinxcontrib.katex']
 
 templates_path = ['_templates']
 exclude_patterns = []
